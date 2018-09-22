@@ -138,8 +138,9 @@ section a {
     padding: 0px 5px 50px;
 
 }
-#about {
-    border-bottom: 1px black solid;
+#contact {
+    border-top: 1px black solid;
+    width: 100%;
 }
 
 footer {
