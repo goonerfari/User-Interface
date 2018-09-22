@@ -81,7 +81,7 @@ nav a, header a, section a {
 header a, section a {
     color: black;
 }
-nav a, header a {
+nav a {
     color: #bebebe;
     padding: 0px 30px;
 }
