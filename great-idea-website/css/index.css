@@ -64,3 +64,80 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+nav, header, section {
+    width: 1200px;
+    margin: 40px auto 30px;
+}
+nav a, header a {
+    color: #bebebe;
+    text-decoration: none;
+    padding: 0px 30px;
+}
+nav a:first-child {
+    margin-left: 80px;
+}
+nav img {
+    float: right;
+    padding-right: 140px;
+    margin-top: -10px;
+}
+header {
+    border-bottom: 1px solid black;
+}
+
+header a {
+    border: 1px solid black;
+    padding: 10px 30px;
+    color: black;
+    width: 155px;
+    display: inline-block;
+    margin: 40px 255px 109px 276px;
+}
+h1 {
+    font-size: 80px;
+    width: 50%;
+    padding: 61px 147px 0px;
+    text-align: center;
+    margin-top: 65px;
+    margin-left: 42px;
+    /* float: left; */
+    display: inline-block;
+    /* margin-bottom: -40px; */
+}
+header img {
+    width: 450px;
+    display: inline-block;
+    float: right;
+    height: 450px;
+    margin-top: 80px;
+}
+section img {
+    width: 100%;
+    padding-bottom: 30px;
+}
+.left-half, .right-half {
+    width: 50%;
+    display: inline-block;
+    padding: 0px 0px 50px;
+}
+.right-half {
+    float: right;
+}
+.left-half {
+    float: left;
+}
+.col-3 {
+    width: 33%;
+    display: inline-block;
+    padding: 0px 5px 50px;
+
+}
+#about {
+    border-bottom: 1px black solid;
+}
+
+footer {
+    text-align: center;
+    padding-bottom: 30px;
+}
