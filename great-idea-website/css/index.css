@@ -65,69 +65,74 @@ h1, h2, h3, h4, h5 {
 
 /* Your code starts here! */
 
+
+.wrapper {
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+}
 nav, header, section {
-    width: 1200px;
-    margin: 40px auto 30px;
+    display: inline-block;
+    padding: 34px 0px 0px;
+}
+nav a, header a, section a {
+    text-decoration: none;
+}
+header a, section a {
+    color: black;
 }
 nav a, header a {
     color: #bebebe;
-    text-decoration: none;
     padding: 0px 30px;
-}
-nav a:first-child {
-    margin-left: 80px;
 }
 nav img {
     float: right;
-    padding-right: 140px;
-    margin-top: -10px;
+    padding-left: 40px;
+    margin-top: -23px;
 }
 header {
     border-bottom: 1px solid black;
+    margin-bottom: 30px;
+    padding-bottom: 45px;
 }
 
 header a {
     border: 1px solid black;
-    padding: 10px 30px;
-    color: black;
-    width: 155px;
+    padding: 10px 45px;
     display: inline-block;
-    margin: 40px 255px 109px 276px;
+    margin-left: 174px;
+    margin-top: 19px;
+    text-align: center;
 }
 h1 {
-    font-size: 80px;
-    width: 50%;
-    padding: 61px 147px 0px;
+    font-size: 62px;
+    width: 47%;
+    padding: 0px 90px;
     text-align: center;
-    margin-top: 65px;
+    margin-top: 100px;
     margin-left: 42px;
-    /* float: left; */
+    float: left;
     display: inline-block;
-    /* margin-bottom: -40px; */
 }
 header img {
-    width: 450px;
-    display: inline-block;
+    width: 333px;
     float: right;
-    height: 450px;
-    margin-top: 80px;
+    height: 333px;
+    margin-top: 50px;
 }
 section img {
     width: 100%;
     padding-bottom: 30px;
 }
-.left-half, .right-half {
-    width: 50%;
+section a {
+    padding-bottom: 5px;
     display: inline-block;
-    padding: 0px 0px 50px;
 }
-.right-half {
-    float: right;
+.half {
+    width: 49%;
+    display: inline-block;
 }
-.left-half {
-    float: left;
-}
-.col-3 {
+.three {
     width: 33%;
     display: inline-block;
     padding: 0px 5px 50px;
