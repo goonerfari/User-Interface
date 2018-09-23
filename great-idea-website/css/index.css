@@ -72,7 +72,7 @@ h1, h2, h3, h4, h5 {
     margin-right: auto;
 }
 nav, header, section {
-    display: inline-block;
+    display: flex;
     padding: 34px 0px 0px;
 }
 nav a, header a, section a {
@@ -84,41 +84,47 @@ header a, section a {
 nav a {
     color: #bebebe;
     padding: 0px 30px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+}
+nav a:first-child {
+    margin-left: -33px;
 }
 nav img {
-    float: right;
-    padding-left: 40px;
-    margin-top: -23px;
+    margin-left: 88px;
+    margin-top: -10px;
 }
 header {
     border-bottom: 1px solid black;
-    margin-bottom: 30px;
-    padding-bottom: 45px;
+    padding-bottom: 70px;
 }
 
 header a {
     border: 1px solid black;
-    padding: 10px 45px;
-    display: inline-block;
-    margin-left: 174px;
-    margin-top: 19px;
+    margin: 0px 127px 0px;
     text-align: center;
+    display: flex;
+    flex-flow: column;
+    padding: 8px;
 }
 h1 {
-    font-size: 62px;
-    width: 47%;
-    padding: 0px 90px;
+    font-size: 76px;
     text-align: center;
-    margin-top: 100px;
-    margin-left: 42px;
-    float: left;
-    display: inline-block;
+    margin-top: 128px;
+    width: 302px;
+    margin-left: 65px;
+    padding: 0px 17px;
+}
+.intro-image {
+    display: flex;
+    flex-direction: row-reverse;
 }
 header img {
-    width: 333px;
-    float: right;
-    height: 333px;
+    width: 400px;
+    height: 400px;
     margin-top: 50px;
+    align-self: flex-end;
 }
 section img {
     width: 100%;
@@ -129,20 +135,25 @@ section a {
     display: inline-block;
 }
 .half {
-    width: 49%;
-    display: inline-block;
+    width: 50%;
+}
+#features .half:first-child {
+    padding-right: 20px;
 }
 .three {
     width: 33%;
-    display: inline-block;
     padding: 0px 5px 50px;
 
 }
 #contact {
     border-top: 1px black solid;
     width: 100%;
+    display: flex;
+    flex-direction: column;
 }
-
+#contact a, address {
+    padding-bottom: 15px;
+}
 footer {
     text-align: center;
     padding-bottom: 30px;
